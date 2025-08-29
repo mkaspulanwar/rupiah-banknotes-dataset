@@ -1,13 +1,13 @@
 # Rupiah Banknotes Dataset
 
 **Short description:**
-A curated image dataset of Indonesian Rupiah banknotes (Rp1,000 – Rp100,000) for Machine Learning and Computer Vision research and experiments.
+A curated image dataset of Indonesian Rupiah banknotes (Rp1,000 – Rp100,000) in **JPG format**, photographed by **M. Kaspul Anwar, Muhammad Lutfan, and Andri Rahmadani**, for Machine Learning and Computer Vision research and experiments.
 
 ---
 
 ## 🔍 What is this?
 
-This repository contains a labeled collection of **images of Indonesian banknotes** organized by denomination. The dataset was prepared for tasks such as image classification, object detection, recognition, and other computer vision experiments using deep learning or classical ML.
+This repository contains a labeled collection of **images of Indonesian banknotes** organized by denomination. All images are in **JPG format** and were photographed by our dataset team. The dataset was prepared for tasks such as image classification, object detection, recognition, and other computer vision experiments using deep learning or classical ML.
 
 **Denominations included:** `1k`, `2k`, `5k`, `10k`, `20k`, `50k`, `100k`, and a `mix` folder for miscellaneous or combined images.
 
@@ -36,14 +36,14 @@ rupiah-banknotes-dataset/
 ├── README.md
 ├── LICENSE
 ├── data/
-│   ├── 1k/            # images of Rp1,000
-│   ├── 2k/            # images of Rp2,000
+│   ├── 1k/            # JPG images of Rp1,000
+│   ├── 2k/            # JPG images of Rp2,000
 │   ├── 5k/
 │   ├── 10k/
 │   ├── 20k/
 │   ├── 50k/
 │   ├── 100k/
-│   └── mix/           # mixed/crowd images or images containing multiple notes
+│   └── mix/           # mixed/crowd JPG images or images containing multiple notes
 ├── scripts/
 │   ├── split_dataset.py    # create train/val/test splits
 │   └── stats.py            # compute per-class counts & basic stats
@@ -54,7 +54,7 @@ rupiah-banknotes-dataset/
 
 **File formats & naming:**
 
-* Images are stored as `.jpg` or `.png` files.
+* Images are stored in **JPG format**.
 * Filenames should be unique and, optionally, encode metadata (e.g. `20k_studio_001.jpg`).
 * Avoid embedding personal data or location metadata in filenames.
 
@@ -163,14 +163,14 @@ If you use this dataset in academic work, please cite the repository. Suggested 
 
 ```
 @misc{rupiah-banknotes-dataset,
-  author = {Your Name},
+  author = {M. Kaspul Anwar and Muhammad Lutfan and Andri Rahmadani},
   title = {Rupiah Banknotes Dataset},
   year = {2025},
   howpublished = {\url{https://github.com/<your-username>/rupiah-banknotes-dataset}},
 }
 ```
 
-Replace `Your Name` and the URL with your details.
+Replace the URL with your repository link.
 
 ---
 
@@ -212,48 +212,8 @@ For questions, issues, or requests, please open an issue in this repository or c
 
 ## 📌 Acknowledgements
 
-Thank you to everyone who helps collect, clean, and validate the images. If you used third-party resources to host data (e.g., Zenodo, Google Drive, S3), mention them here.
+Dataset images were photographed by **M. Kaspul Anwar, Muhammad Lutfan, and Andri Rahmadani**. Thank you to everyone who helps collect, clean, and validate the images. If you used third-party resources to host data (e.g., Zenodo, Google Drive, S3), mention them here.
 
 ---
 
 *Last updated: 2025-08-29*
-
----
-
-### Append: MIT License template (add to `LICENSE`)
-
-```
-MIT License
-
-Copyright (c) 2025 <Your Name>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-(Replace `<Your Name>` and `2025` as appropriate.)
-
----
-
-If you'd like, I can also:
-
-* generate `scripts/split_dataset.py` and `scripts/stats.py` for you,
-* create a `LICENSE` file with the MIT text filled with your name,
-* draft `pytorch_example.ipynb` and `tensorflow_example.ipynb`.
-
-Tell me which files you'd like me to add next and I'll create them.
