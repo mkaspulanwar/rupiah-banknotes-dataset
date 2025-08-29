@@ -4,6 +4,11 @@
 A curated image dataset of Indonesian Rupiah banknotes (Rp1,000 – Rp100,000) in **JPG format**, photographed by **M. Kaspul Anwar, Muhammad Lutfan, and Andri Rahmadani**, for Machine Learning and Computer Vision research and experiments.
 
 ---
+<p align="center">
+  <a href="https://blockstream.info/address/bc1q9jc7wnggqhuq7lqx29u49t3pv5ftk5lmwpl6k4" target="_blank">
+    <img src="https://img.shields.io/badge/Support%20Us%20with-Bitcoin-ff9900?style=for-the-badge&logo=bitcoin&logoColor=white&labelColor=333333" alt="Support Us with Bitcoin">
+  </a>
+</p>
 
 ## 🔍 What is this?
 
